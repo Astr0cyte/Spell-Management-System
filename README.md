@@ -22,13 +22,17 @@
 
 - **Diagnostic Mode:** Fail-safe execution state that halts command processing upon paradox detection, preventing runtime errors (e.g., stack overflows) and outputting actionable dependency data.
 
+**Disclaimer:**
+
+This implementation utilises manual data structure management to prioritize a first-principles understanding of graph traversal and dependency resolution. While optimised versions would leverage Java’s standard collections framework—specifically HashMap and TreeMap—for improved time complexity and abstraction, this manual approach fostered a practical appreciation for the performance benefits and design efficiency standard library data structures provide.
+
 **Operations Supported:**
 
 - `PREREQ`: Dependency validation and cycle analysis.
 - `LEARN` / `FORGET`: State management (disabled during diagnostic failure).
 - `ENUM`: Graph enumeration.
 
-*Extra info*
+*Extra info:*
 
 - Some sample `.in` and `.out` text files are included for an example of how the input works.
-- For pedagogical reasons (focus was on graphs), the program was strictly limited to reading the specific format that the `.in` and `.out` files are written in. 
+- For pedagogical reasons (focus was on graphs), the program was strictly limited to reading the specific format that the `.in` and `.out` files are written in.
