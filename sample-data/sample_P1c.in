@@ -1,0 +1,4 @@
+PREREQ burning_cascade magic_missile 4
+LEARN magic_missile
+LEARN burning_cascade
+END

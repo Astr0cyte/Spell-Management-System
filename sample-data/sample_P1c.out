@@ -1,0 +1,7 @@
+PREREQ burning_cascade magic_missile 4
+LEARN magic_missile
+    Learning magic_missile level 1
+LEARN burning_cascade
+    Learning magic_missile level +3
+    Learning burning_cascade level 1
+END

@@ -1,0 +1,45 @@
+PREREQ fireball burning_cascade magic_missile
+PREREQ burning_cascade magic_missile
+PREREQ flaming_mantle burning_cascade magic_missile
+PREREQ shining_sphere_of_protection burning_cascade sparks
+LEARN magic_missile
+    Learning magic_missile level 1
+LEARN fireball
+    Learning burning_cascade level 1
+    Learning fireball level 1
+LEARN minor_heal
+    Learning minor_heal level 1
+FORGET magic_missile
+    magic_missile is still needed
+LEARN shining_sphere_of_protection
+    Learning sparks level 1
+    Learning shining_sphere_of_protection level 1
+LEARN flaming_mantle
+    Learning flaming_mantle level 1
+ENUM
+    magic_missile level 1
+    burning_cascade level 1
+    fireball level 1
+    minor_heal level 1
+    sparks level 1
+    shining_sphere_of_protection level 1
+    flaming_mantle level 1
+FORGET fireball
+    Forgetting fireball
+FORGET magic_missile
+    magic_missile is still needed
+FORGET flaming_mantle
+    Forgetting flaming_mantle
+FORGET magic_missile
+    magic_missile is still needed
+LEARN magic_missile
+    Learning magic_missile level +1
+FORGET burning_cascade
+    burning_cascade is still needed
+FORGET shining_sphere_of_protection
+    Forgetting shining_sphere_of_protection
+    Forgetting sparks
+    Forgetting burning_cascade
+FORGET burning_cascade
+    burning_cascade is not learned
+END
