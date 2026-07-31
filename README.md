@@ -24,7 +24,7 @@
 
 **Disclaimer:**
 
-This implementation utilises manual data structure management to prioritize a first-principles understanding of graph traversal and dependency resolution. While optimised versions would leverage Java’s standard collections framework—specifically HashMap and TreeMap—for improved time complexity and abstraction, this manual approach fostered a practical appreciation for the performance benefits and design efficiency standard library data structures provide.
+This implementation utilises manual data structure management to prioritize a first-principles understanding of graph traversal and dependency resolution. While optimised versions would leverage Java’s standard collections framework—specifically HashMap and TreeMap—for improved time complexity and abstraction, this manual approach fostered made me appreciate the performance benefits and design efficiency that standard library data structures provide. This was a harsh lesson for me - in future implementations I will be leveraging standard libraries to my advantage.
 
 **Operations Supported:**
 
